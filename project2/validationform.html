@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Validation Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form onsubmit="return form()">
+           <h1>Test JavaScript Form Validation</h1>
+                <label>UserName:</label>
+                <input type="text"  id="userName"><br>
+                <span id="user" style="color:red; font-style:italic;"></span><br><br>
+                <label>Password:</label>
+                <input type="password" id="pass"><br>
+                <br><br>
+                <label>Re-Password</label>
+                <input type="password" id="repass">
+                <span id="repassword" style="color:red; font-style:italic;"></span><br><br>
+                <label>E-mail:</label>
+                <input type="email" id="mail"><br>
+                <span id="email" style="color:red; font-style:italic;"></span><br><br>
+                <label>PhoneNumber:</label>
+                <input type="number" id="phone">
+                <span id="number1"></span><br><br>
+                <label>Address:</label>
+                <textarea rows="5" cols="10">Enter Your Address</textarea><br><br>
+                <label>Zip Code</label>
+                <input type="number"><br><br>
+                <label>Gender</label>
+                <input type="radio" name="Gender" value="Female">Female
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Others">Others<br><br>
+                <label>Job Role:</label>
+                <select>
+                    <option>--Select Job--</option>
+                    <option>Software Developer</option>
+                    <option>Software Engineer</option>
+                    <option>Business Analyst</option>
+                    <option>FullStack Developer</option>
+                    <option>Data Scientist</option>
+                </select><br><br>
+                <label>Skills Required:</label>
+                <select>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                    <option>ReactJs</option>
+                    <option>Java</option>
+                    <option>node js</option>
+                    <option>Python</option>
+                    <option>MySql</option>
+                    <option>PHP</option>
+                    <option>c++</option>
+                    <option>c</option>
+                </select><br><br>
+                
+                <button type="submit" style="color:brown;">Submit</button>
+        </form>
+        <script src="./one.js" type="text/javascript"></script>
+    </body>
+</html>
