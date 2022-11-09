@@ -18,7 +18,7 @@ return false
     }
     
     let five=document.getElementById("phone").value;
-    if(five.length <10 && five.length >10){
+    if(five.length <10 || five.length >10){
      document.getElementById("number1").innerHTML="Please Enter 10 numbers";
      return false
     }

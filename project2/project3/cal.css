@@ -1,0 +1,24 @@
+h1{
+    color:rgb(245, 163, 12);
+    font-size: 80px;
+}
+.cable{
+    text-align: center;
+}
+table{
+    margin:auto;
+    border-radius: 50px;
+    filter:blur();
+}
+button{
+    font-size:20px;
+    width:100px;
+    height: 50px;
+}
+body{
+    background-color: black;
+}
+.test{
+    width: 405px;
+    height:40px;
+}
