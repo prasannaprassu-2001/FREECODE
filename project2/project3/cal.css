@@ -21,4 +21,5 @@ body{
 .test{
     width: 405px;
     height:40px;
+    border-color: black;
 }
