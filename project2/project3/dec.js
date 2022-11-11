@@ -4,5 +4,5 @@ function add(){
     b = 20;
     c = 30;
     result=a+b+c;
-    document.write("sum of numbers", result);
+    document.write( result);
 }
