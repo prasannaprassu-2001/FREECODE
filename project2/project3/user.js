@@ -1,9 +1,8 @@
-function sub(id, name, sal){
-   
-    console.log(id);
-    console.log(name);
-    console.log(sal+5000);
-    
+var i = 1
+function mul(){
+
+console.log("multiply", i);
+i++
+mul()
 }
-sub(101, "Vidya", 25000);
-sub(102, "chana", 25000)
+mul();
