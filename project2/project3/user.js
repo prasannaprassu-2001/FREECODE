@@ -9,10 +9,10 @@ age(21)*/
 function lifeInWeeks(age) {
     
     /*****Don't change the code above*****/    
-    var total_Days=(90*365);
+   /* var total_Days=(90*365);
     var present_Days=(age*365);
         remaining_Days=(total_Days - present_Days);
-        
+
     var total_Weeks=(90*52);
     var present_Weeks=(age*52);
         remaining_Weeks=(total_Weeks - present_Weeks);
@@ -23,7 +23,6 @@ function lifeInWeeks(age) {
         remaining_Months=(total_Months - present_Months);
         
         
-        console.log("You have " + remaining_Days + " days " + remaining_Weeks +" weeks, and " +remaining_Months +" months left.")
+        console.log("You have " + remaining_Days + " days " + remaining_Weeks +" weeks, and " +remaining_Months +" months left.")*/
+
          
-        
-        
