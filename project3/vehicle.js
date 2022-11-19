@@ -20,10 +20,23 @@ console.log(r.reverse());
 let rev = ['vidya', 'chana', 'ashok']
 array(rev) */
 
-function array(m){
+/* function array(m){
    
  console.log(Math.max(...m));
  console.log(Math.min(...m));
 }
 let mum = [10, 20, 30, 40, 50]
-array(mum)
+array(mum) */
+
+function sleep_in(a,b){
+if(a===b){
+    return true;
+}else if(a!=b){
+    return true;
+}else if(b!=a){
+    return false;
+}
+}
+console.log(sleep_in(false,false))
+console.log(sleep_in(true,false))
+console.log(sleep_in(false,true))                                              
