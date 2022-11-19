@@ -1,4 +1,4 @@
- function vehicle(a, b){
+ /* function vehicle(a, b){
 if(b){
     a = a - 5
     
@@ -12,13 +12,13 @@ if(b){
 }
 console.log(vehicle(60, false))
 console.log(vehicle(65, false))
-console.log(vehicle(65, true)) 
+console.log(vehicle(65, true))  */
  
-/* function array(r){
+function array(r){
 console.log(r.reverse());
 }
 let rev = ['vidya', 'chana', 'ashok']
-array(rev) */
+array(rev)
 
 /* function array(m){
 var res1 = Math.max(m)
