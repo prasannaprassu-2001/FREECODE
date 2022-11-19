@@ -7,11 +7,12 @@
         <h1>Iterative statements</h1>
         <h2 id="res"></h2>
         <script>
-            var i;res=" ";
-for (i=1; i<=100; i++){
-    res+=i+" "
+            var i=1;res=" ";
+while (i<=100){
+res+=i+" "
     if(i%10==0)
     res+="<br>";
+    i++;
 }
 document.getElementById("res").innerHTML=res;
         </script>
