@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tracker</title>
+        <link rel="stylesheet" href="ex.css">
+        
+    </head>
+    <body>
+        <div>
+         <h1>Expense Tracker</h1><br><br>
+         <div >
+        <h4>YOUR BALANCE</h4>
+        <span id="amount">1000</span>
+    </div><br><br>
+    <div >
+        <div >
+        <h3>INCOME</h3>
+        <p id="income">1200</p>
+    </div><br><br>
+    <div>
+        <h3>EXPENSE</h3>
+        <p id="expense">200</p>
+    </div><br><br>
+    
+        <h3>History</h3>
+        <hr>
+        <ul id="tr">
+    
+        </ul>
+    </div><br><br>
+
+    <h2>Add new transaction</h2>
+    <hr>
+    <form id="form" onsubmit="return false;">
+        <div>
+    <label for="text">Text</label><br>
+    <input type="text" placeholder="Enter text..."  id="text"><br><br>
+        </div>
+        <div>
+    <label for="amount">Amount<br>(negative - expense,positive - income)</label><br>
+    <input type="number" placeholder="Enter amount..." id="amt">
+</div><br><br>
+      <button type="button" id="ibtn">Add Income</button>
+      <button type="button" id="ebtn">Add Expense</button>
+    </form>
+   
+    </div>
+    <script src="tracker.js" type="text/javascript"></script>
+    </body>
+</html>
+
+
+
