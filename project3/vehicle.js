@@ -14,17 +14,16 @@ console.log(vehicle(60, false))
 console.log(vehicle(65, false))
 console.log(vehicle(65, true))  */
  
-function array(r){
+/* function array(r){
 console.log(r.reverse());
 }
 let rev = ['vidya', 'chana', 'ashok']
-array(rev)
+array(rev) */
 
-/* function array(m){
-var res1 = Math.max(m)
-var res2 = Math.min(m)
-console.log(res1);
-console.log(res2);
+function array(m){
+   
+ console.log(Math.max(...m));
+ console.log(Math.min(...m));
 }
 let mum = [10, 20, 30, 40, 50]
-array(mum) */
+array(mum)
