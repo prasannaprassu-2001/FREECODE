@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Number Object</h1>
+    <script>
+        var n = 1.00014
+        var x = 15;
+        var y = new Number(15);
+        var z = new Number(15);
+        var s = x.toString()
+        var e = x.toExponential(1)
+        var f = n.toFixed(4)
+        var p = n.toPrecision(5)
+        document.writeln("TYPE OF X:" + typeof x +"</br>");
+        document.writeln("TYPE OF Y:" + typeof y +"</br>");
+        document.writeln("TYPE OF Z:" + typeof z +"</br>");
+        document.writeln("TYPE OF S:" + typeof s +"</br>");
+        document.writeln("X==Y:"+(x==y)+"<br>")
+        document.writeln("X===Y:"+(x===y)+"<br>")
+        document.writeln("Y==Z:"+(y==z)+"<br>")
+        document.writeln("TYPE OF S:"+typeof s+"<br>")
+        document.writeln("EXPONENTIAL FORM:"+e+"<br>")
+        document.writeln("toFixed Function"+f+"<br>")
+        document.writeln("toPrecision Function"+p+"<br>")
+        document.writeln("TYPE OF E:"+e+"<br>")
+        var a = Number(e)
+        var b = parseInt(f)
+        var c = parseFloat(n)
+        document.writeln("TYPE OF A:"+a+"<br>")
+        document.writeln("TYPE OF B:"+b+"<br>"+"VALUE OF B:"+b+"<br>")
+        document.writeln("TYPE OF C:"+c+"<br>"+"VALUE OF C:"+c+"<br>")
+        document.writeln("<h1>Number Properties</h1>")
+        document.writeln("MIN_VALUE:"+Number.MIN_VALUE+"<br>")
+        document.writeln("MAX_VALUE:"+Number.MAX_VALUE+"<br>")
+        document.writeln("POSITIVE_INFINITY:"+Number.POSITIVE_INFINITY+"<br>")
+        document.writeln("NEGATIVE_INFINITY:"+Number.NEGATIVE_INFINITY+"<br>")
+        document.writeln("NOT A NUMBER:"+Number.NaN+"<br>")
+    </script>
+</body>
+</html>
