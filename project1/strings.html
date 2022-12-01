@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Strings-String Object-String Methods</h1>
+    <script>
+        var s1='Welcome to strings in Java Script'
+document.writeln("SINGLE QUOTED STRING:",s1,"<br/>");
+var s2="Strings With Double Quotes"                //string
+document.writeln("DOUBLE QUOTED STRINGS:",s2,"<br/>");
+document.writeln(typeof s2,"<br/>")
+var s3=new String("Hii String Objects");           //object
+document.writeln("STRING OBJECT:",s3,"<br/>");
+document.writeln(typeof s3,"<br/>")
+document.writeln("<h1>STRING METHODS</h1>");       //string methods
+document.writeln("s1=",s1,"<br>","s2=",s2,"<br>","s3=",s3,"<br>");
+document.writeln("indexOf():",s1.indexOf('s'),"<br>")
+document.writeln("lastIndexOf():",s1.lastIndexOf('r'),"<br/>")
+document.writeln("indexOf() with argument:",s1.indexOf("o", 6),"<br/>")
+document.writeln("search():",s1.search('s'),"<br/>")
+document.writeln("slice():",s1.slice(0,17),"<br/>")
+document.writeln("slice() with negative index:",s1.slice(0,-5),"<br/>")
+document.writeln("substring():",s1.substring(0,7),"<br/>")
+document.writeln("substr():",s1.substr(0,19),"<br/>")
+document.writeln("replace():",s1.replace('Java Script', 'JS'),"<br/>")
+var s4='hello javascript';
+var s5='HELLO REACTJS';
+document.writeln("toUpperCase:",s4.toUpperCase(),"<br/>");
+document.writeln("toLowerCase:",s5.toLowerCase(),"<br/>");
+var s6='Hello!';
+document.writeln(s6.concat(s4),"<br/>");
+var s7=' JAVASCRIPT ';
+document.writeln("Length of s7:",s7.length,"<br/>");
+var s8=s7.trim();
+document.writeln('Length of s8 is:',s8.length,"<br/>");
+document.writeln('charAt():',s1.charAt(5),"<br/>")
+document.writeln(s1.length,"<br/>");
+document.writeln('charCodeAt():',s1.charCodeAt(5),"<br/>");
+for(i=0;i<s8.length;i++){
+    document.writeln(s8[i]+"<br>")
+}
+    </script>
+</body>
+</html>
