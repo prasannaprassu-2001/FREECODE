@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arrays</h1>
+    <script>
+        var a=[10,20,30,40]
+        document.writeln(a+"<br/>")
+        document.writeln(typeof a+"<br/>")
+        var b=new Array(50,60,70,80)
+        document.writeln(b+"<br/>")
+        var c=['hii']
+        document.writeln(c+"<br/>")
+        var d=new Array(12)
+        document.writeln(d+"<br/>")
+        document.writeln("Length of an Array:",+a.length+"<br/>")
+        document.writeln("Element:"+a[2]+"<br/>")
+        document.writeln(a+"<br/>")
+        var e={"name":"Chana","rno":169,"perc":80}
+        document.writeln(e.name+"<br>"+e.rno+"<br>"+e.perc+"<br>")
+        for(i=0;i<a.length;i++)
+            document.writeln("a["+i+"]="+a[i]+"<br>")
+            a[0]=100
+            document.writeln("a="+a+"<br>")
+            document.writeln("Length of Array is:"+a.length+"<br>")
+            delete a[1]
+            document.writeln("After delete index 1:" +a.length+"<br>")
+            for(i=0;i<a.length;i++)
+            document.writeln("a["+a+"]="+a[i]+"<br>")
+
+            a[6]=150
+            document.writeln("After inserting index 6:" +a.length+"<br>")
+            for(i=0;i<a.length;i++)
+            document.writeln("a["+i+"]="+a[i]+"<br>")
+            var n=10
+            document.writeln(typeof a+"<br>")
+            document.writeln(Array.isArray(n))
+
+        
+
+
+    </script>
+</body>
+</html>
