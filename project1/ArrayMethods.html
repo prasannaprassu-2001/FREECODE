@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+        <h1>Array Methods</h1>
+        <script>
+            //join
+            var a=[10, 20, 30, 40]
+            var b=[50, 60, 70, 80]
+            document.writeln(a.join("$")+"<br/>")
+            var c=['Chana', 'Ashok', 'Vidya', 'Teju']
+            //sort
+            document.writeln(c.sort()+"<br/>")
+            //reverse
+            document.writeln(c.reverse()+"<br/>")
+            document.writeln(b.reverse()+"<br/>")
+            document.writeln("a="+a+"<br/>")
+            document.writeln("b="+b+"<br/>")
+            //pop
+            document.writeln(a.pop()+"<br/>")
+            document.writeln("a="+a+"<br/>")
+            //push
+            document.writeln(b.push('10')+"<br/>")
+            document.writeln("b="+b+"<br/>")
+            //shift
+            document.writeln(b.shift()+"<br/>")
+            document.writeln("b="+b+"<br/>")
+            //unshift
+            document.writeln(c.unshift('Lali')+"<br/>")
+            document.writeln("c="+c+"<br/>")
+            //concat
+            document.writeln(a.concat(c)+"<br/>")
+            document.writeln("a="+a+"<br/>")
+            //Splice
+            var d=[5,10,20,30,40,50]
+            document.writeln(d.splice(1,2,15)+"<br/>")
+            document.writeln("d="+d+"<br/>")
+            document.writeln(c.splice(1,2,'sana')+'<br/>')
+            document.writeln("c="+c+"<br/>")
+            //Slice
+            var n=[100, 200, 300, 400, 500, 600, 700]
+            document.writeln(n.slice(0,4)+"<br/>")
+            document.writeln("n="+n+"<br/>")
+        </script>
+    </body>
+</html>
