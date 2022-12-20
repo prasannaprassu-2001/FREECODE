@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SET METHODS</title>
+    </head>
+    <body>
+        <h1>SET METHODS IN DATE OBJECT</h1>
+        <script>
+         var b=new Date()
+         document.writeln(b+"<br/>")
+         b.setDate(20)
+         document.writeln("New Date="+b+"<br/>")
+         b.setFullYear(2001,0)
+         document.writeln("New Date="+b+"<br/>")
+         b.setHours(16)
+         document.writeln("New Date="+b+"<br/>")
+         b.setMinutes(52)
+         document.writeln("New Date="+b+"<br/>")
+         b.setSeconds(50)
+         document.writeln("New Date="+b+"<br/>")
+         b.setMilliseconds(500)
+         document.writeln("New Date="+b+"<br/>")
+         b.setTime(1000000000)
+         document.writeln("New Date="+b+"<br/>")
+         document.writeln((b.getDate()+5)+"<br/>")
+        </script>
+    </body>
+</html>
